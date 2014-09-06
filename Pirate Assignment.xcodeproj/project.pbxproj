@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60AF112619B73C6E0059DF53 /* FSTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF112519B73C6E0059DF53 /* FSTile.m */; };
+		60AF112919B73EFA0059DF53 /* FSFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF112819B73EFA0059DF53 /* FSFactory.m */; };
+		60AF112B19B743EA0059DF53 /* beach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60AF112A19B743EA0059DF53 /* beach.jpg */; };
+		60D1134A19B89BD1006CCAF6 /* rahmen.png in Resources */ = {isa = PBXBuildFile; fileRef = 60D1134919B89BD1006CCAF6 /* rahmen.png */; };
+		60D1134D19B8A325006CCAF6 /* beach_pirate_left.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60D1134B19B8A325006CCAF6 /* beach_pirate_left.jpg */; };
+		60D1134E19B8A325006CCAF6 /* beach_pirate_right.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60D1134C19B8A325006CCAF6 /* beach_pirate_right.jpg */; };
 		60F5E6B319B7201800DD17C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60F5E6B219B7201800DD17C2 /* Foundation.framework */; };
 		60F5E6B519B7201800DD17C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60F5E6B419B7201800DD17C2 /* CoreGraphics.framework */; };
 		60F5E6B719B7201800DD17C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60F5E6B619B7201800DD17C2 /* UIKit.framework */; };
@@ -21,6 +27,9 @@
 		60F5E6D419B7201900DD17C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60F5E6B619B7201800DD17C2 /* UIKit.framework */; };
 		60F5E6DC19B7201900DD17C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60F5E6DA19B7201900DD17C2 /* InfoPlist.strings */; };
 		60F5E6DE19B7201900DD17C2 /* Pirate_AssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F5E6DD19B7201900DD17C2 /* Pirate_AssignmentTests.m */; };
+		60F5E6E919B7296100DD17C2 /* FSCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F5E6E819B7296100DD17C2 /* FSCharacter.m */; };
+		60F5E6EC19B729DE00DD17C2 /* FSWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F5E6EB19B729DE00DD17C2 /* FSWeapon.m */; };
+		60F5E6EF19B72A2500DD17C2 /* FSArmor.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F5E6EE19B72A2500DD17C2 /* FSArmor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60AF112419B73C6E0059DF53 /* FSTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTile.h; sourceTree = "<group>"; };
+		60AF112519B73C6E0059DF53 /* FSTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTile.m; sourceTree = "<group>"; };
+		60AF112719B73EFA0059DF53 /* FSFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSFactory.h; sourceTree = "<group>"; };
+		60AF112819B73EFA0059DF53 /* FSFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSFactory.m; sourceTree = "<group>"; };
+		60AF112A19B743EA0059DF53 /* beach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beach.jpg; sourceTree = "<group>"; };
+		60D1134919B89BD1006CCAF6 /* rahmen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rahmen.png; sourceTree = "<group>"; };
+		60D1134B19B8A325006CCAF6 /* beach_pirate_left.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beach_pirate_left.jpg; sourceTree = "<group>"; };
+		60D1134C19B8A325006CCAF6 /* beach_pirate_right.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beach_pirate_right.jpg; sourceTree = "<group>"; };
 		60F5E6AF19B7201800DD17C2 /* Pirate Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pirate Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60F5E6B219B7201800DD17C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		60F5E6B419B7201800DD17C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +70,12 @@
 		60F5E6D919B7201900DD17C2 /* Pirate AssignmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pirate AssignmentTests-Info.plist"; sourceTree = "<group>"; };
 		60F5E6DB19B7201900DD17C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		60F5E6DD19B7201900DD17C2 /* Pirate_AssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pirate_AssignmentTests.m; sourceTree = "<group>"; };
+		60F5E6E719B7296100DD17C2 /* FSCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCharacter.h; sourceTree = "<group>"; };
+		60F5E6E819B7296100DD17C2 /* FSCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCharacter.m; sourceTree = "<group>"; };
+		60F5E6EA19B729DE00DD17C2 /* FSWeapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSWeapon.h; sourceTree = "<group>"; };
+		60F5E6EB19B729DE00DD17C2 /* FSWeapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSWeapon.m; sourceTree = "<group>"; };
+		60F5E6ED19B72A2500DD17C2 /* FSArmor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSArmor.h; sourceTree = "<group>"; };
+		60F5E6EE19B72A2500DD17C2 /* FSArmor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSArmor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +140,16 @@
 				60F5E6C419B7201800DD17C2 /* Main.storyboard */,
 				60F5E6C719B7201800DD17C2 /* FSViewController.h */,
 				60F5E6C819B7201800DD17C2 /* FSViewController.m */,
+				60AF112719B73EFA0059DF53 /* FSFactory.h */,
+				60AF112819B73EFA0059DF53 /* FSFactory.m */,
+				60AF112419B73C6E0059DF53 /* FSTile.h */,
+				60AF112519B73C6E0059DF53 /* FSTile.m */,
+				60F5E6ED19B72A2500DD17C2 /* FSArmor.h */,
+				60F5E6EE19B72A2500DD17C2 /* FSArmor.m */,
+				60F5E6EA19B729DE00DD17C2 /* FSWeapon.h */,
+				60F5E6EB19B729DE00DD17C2 /* FSWeapon.m */,
+				60F5E6E719B7296100DD17C2 /* FSCharacter.h */,
+				60F5E6E819B7296100DD17C2 /* FSCharacter.m */,
 				60F5E6CA19B7201800DD17C2 /* Images.xcassets */,
 				60F5E6B919B7201800DD17C2 /* Supporting Files */,
 			);
@@ -126,6 +159,10 @@
 		60F5E6B919B7201800DD17C2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				60D1134B19B8A325006CCAF6 /* beach_pirate_left.jpg */,
+				60D1134C19B8A325006CCAF6 /* beach_pirate_right.jpg */,
+				60D1134919B89BD1006CCAF6 /* rahmen.png */,
+				60AF112A19B743EA0059DF53 /* beach.jpg */,
 				60F5E6BA19B7201800DD17C2 /* Pirate Assignment-Info.plist */,
 				60F5E6BB19B7201800DD17C2 /* InfoPlist.strings */,
 				60F5E6BE19B7201800DD17C2 /* main.m */,
@@ -229,9 +266,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60D1134A19B89BD1006CCAF6 /* rahmen.png in Resources */,
+				60AF112B19B743EA0059DF53 /* beach.jpg in Resources */,
 				60F5E6CB19B7201800DD17C2 /* Images.xcassets in Resources */,
+				60D1134D19B8A325006CCAF6 /* beach_pirate_left.jpg in Resources */,
 				60F5E6BD19B7201800DD17C2 /* InfoPlist.strings in Resources */,
 				60F5E6C619B7201800DD17C2 /* Main.storyboard in Resources */,
+				60D1134E19B8A325006CCAF6 /* beach_pirate_right.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +293,12 @@
 			files = (
 				60F5E6BF19B7201800DD17C2 /* main.m in Sources */,
 				60F5E6C319B7201800DD17C2 /* FSAppDelegate.m in Sources */,
+				60F5E6EC19B729DE00DD17C2 /* FSWeapon.m in Sources */,
+				60F5E6E919B7296100DD17C2 /* FSCharacter.m in Sources */,
+				60F5E6EF19B72A2500DD17C2 /* FSArmor.m in Sources */,
 				60F5E6C919B7201800DD17C2 /* FSViewController.m in Sources */,
+				60AF112619B73C6E0059DF53 /* FSTile.m in Sources */,
+				60AF112919B73EFA0059DF53 /* FSFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +503,7 @@
 				60F5E6E319B7201900DD17C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60F5E6E419B7201900DD17C2 /* Build configuration list for PBXNativeTarget "Pirate AssignmentTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +512,7 @@
 				60F5E6E619B7201900DD17C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
