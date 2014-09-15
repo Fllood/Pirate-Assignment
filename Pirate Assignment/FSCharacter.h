@@ -15,7 +15,6 @@
 @property CGPoint position;
 
 @property int health;
-@property int damage;
 
 @property FSWeapon *weapon;
 @property FSArmor *armor;

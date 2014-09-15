@@ -13,9 +13,11 @@
 @property NSMutableArray *tiles;
 @property NSMutableArray *weapons;
 @property NSMutableArray *armors;
+@property NSMutableArray *events;
 
 -(void) makeTiles;
 -(void) makeWeapons;
 -(void) makeArmors;
+-(void) makeEvents;
 
 @end

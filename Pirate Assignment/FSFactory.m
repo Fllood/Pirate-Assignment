@@ -10,6 +10,7 @@
 #import "FSTile.h"
 #import "FSWeapon.h"
 #import "FSArmor.h"
+#import "FSEvent.h"
 
 @implementation FSFactory
 
@@ -45,7 +46,7 @@
     sword.damage = 5;
     
     FSWeapon *fist = [[FSWeapon alloc]init];
-    fist.name = @"fist";
+    fist.name = @"Fist";
     fist.damage = 2;
     
     FSWeapon *pistol = [[FSWeapon alloc]init];
@@ -82,6 +83,47 @@
     [self.armors addObject:leather];
     [self.armors addObject:iron];
     [self.armors addObject:steel];
+}
+
+-(void) makeEvents
+{
+    self.events = [[NSMutableArray alloc] init];
+    
+    FSEvent *foundSword = [[FSEvent alloc] init];
+    foundSword.text = @"You are stumbling across a beautiful sword! Press Action to use it!";
+    foundSword.weapon = [[self.weapons filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"name like 'Sword'"]] firstObject];
+    foundSword.position = CGPointMake(0, 2);
+    
+    [self.events addObject:foundSword];
+    
+    FSEvent *foundPistol = [[FSEvent alloc] init];
+    foundPistol.text = @"Oh, there is a pistol burried in the sand! Press Action to use it!";
+    foundPistol.weapon = [[self.weapons filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"name like 'Pistol'"]] firstObject];
+    foundPistol.position = CGPointMake(1, 1);
+    
+    [self.events addObject:foundPistol];
+    
+    FSEvent *foundCannon = [[FSEvent alloc] init];
+    foundCannon.text = @"You see a magnificient cannon shimmering in the distance! Press Action to use it!";
+    foundCannon.weapon = [[self.weapons filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"name like 'Cannon'"]] firstObject];
+    foundCannon.position = CGPointMake(3, 0);
+    
+    [self.events addObject:foundCannon];
+    
+    FSEvent *foundIronArmor = [[FSEvent alloc] init];
+    foundIronArmor.text = @"There is a nice rigid iron armor! Press Action to use it!";
+    foundIronArmor.armor = [[self.armors filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"name like 'Iron Armor'"]] firstObject];
+    foundCannon.position = CGPointMake(2, 0);
+    
+    [self.events addObject:foundIronArmor];
+    
+    FSEvent *foundSteelArmor = [[FSEvent alloc] init];
+    foundSteelArmor.text = @"You find an armor made out of steel! Press Action to use it!";
+    foundSteelArmor.armor = [[self.armors filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"name like 'Steel Armor'"]] firstObject];
+    foundSteelArmor.position = CGPointMake(3, 1);
+    
+    [self.events addObject:foundSteelArmor];
+
 }
 
 @end

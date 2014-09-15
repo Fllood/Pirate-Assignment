@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6079BABC19BF582800482E03 /* FSBoss.m in Sources */ = {isa = PBXBuildFile; fileRef = 6079BABB19BF582800482E03 /* FSBoss.m */; };
+		6079BABE19BF5BCC00482E03 /* octopus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6079BABD19BF5BCC00482E03 /* octopus.jpg */; };
+		6095AB5D19C6DF3A0042FFE4 /* FSEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6095AB5C19C6DF3A0042FFE4 /* FSEvent.m */; };
 		60AF112619B73C6E0059DF53 /* FSTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF112519B73C6E0059DF53 /* FSTile.m */; };
 		60AF112919B73EFA0059DF53 /* FSFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF112819B73EFA0059DF53 /* FSFactory.m */; };
 		60AF112B19B743EA0059DF53 /* beach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60AF112A19B743EA0059DF53 /* beach.jpg */; };
@@ -43,6 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6079BABA19BF582800482E03 /* FSBoss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBoss.h; sourceTree = "<group>"; };
+		6079BABB19BF582800482E03 /* FSBoss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBoss.m; sourceTree = "<group>"; };
+		6079BABD19BF5BCC00482E03 /* octopus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = octopus.jpg; sourceTree = "<group>"; };
+		6095AB5B19C6DF3A0042FFE4 /* FSEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSEvent.h; sourceTree = "<group>"; };
+		6095AB5C19C6DF3A0042FFE4 /* FSEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSEvent.m; sourceTree = "<group>"; };
 		60AF112419B73C6E0059DF53 /* FSTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTile.h; sourceTree = "<group>"; };
 		60AF112519B73C6E0059DF53 /* FSTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTile.m; sourceTree = "<group>"; };
 		60AF112719B73EFA0059DF53 /* FSFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSFactory.h; sourceTree = "<group>"; };
@@ -140,6 +148,10 @@
 				60F5E6C419B7201800DD17C2 /* Main.storyboard */,
 				60F5E6C719B7201800DD17C2 /* FSViewController.h */,
 				60F5E6C819B7201800DD17C2 /* FSViewController.m */,
+				6095AB5B19C6DF3A0042FFE4 /* FSEvent.h */,
+				6095AB5C19C6DF3A0042FFE4 /* FSEvent.m */,
+				6079BABA19BF582800482E03 /* FSBoss.h */,
+				6079BABB19BF582800482E03 /* FSBoss.m */,
 				60AF112719B73EFA0059DF53 /* FSFactory.h */,
 				60AF112819B73EFA0059DF53 /* FSFactory.m */,
 				60AF112419B73C6E0059DF53 /* FSTile.h */,
@@ -160,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				60D1134B19B8A325006CCAF6 /* beach_pirate_left.jpg */,
+				6079BABD19BF5BCC00482E03 /* octopus.jpg */,
 				60D1134C19B8A325006CCAF6 /* beach_pirate_right.jpg */,
 				60D1134919B89BD1006CCAF6 /* rahmen.png */,
 				60AF112A19B743EA0059DF53 /* beach.jpg */,
@@ -273,6 +286,7 @@
 				60F5E6BD19B7201800DD17C2 /* InfoPlist.strings in Resources */,
 				60F5E6C619B7201800DD17C2 /* Main.storyboard in Resources */,
 				60D1134E19B8A325006CCAF6 /* beach_pirate_right.jpg in Resources */,
+				6079BABE19BF5BCC00482E03 /* octopus.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +313,8 @@
 				60F5E6C919B7201800DD17C2 /* FSViewController.m in Sources */,
 				60AF112619B73C6E0059DF53 /* FSTile.m in Sources */,
 				60AF112919B73EFA0059DF53 /* FSFactory.m in Sources */,
+				6079BABC19BF582800482E03 /* FSBoss.m in Sources */,
+				6095AB5D19C6DF3A0042FFE4 /* FSEvent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
